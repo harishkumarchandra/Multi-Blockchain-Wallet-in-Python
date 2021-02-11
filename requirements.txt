@@ -1,0 +1,13 @@
+#hd-wallet-derive
+
+git clone https://github.com/dan-da/hd-wallet-derive
+cd hd-wallet-derive
+curl https://getcomposer.org/installer -o installer.php
+php installer.php
+php composer.phar install
+
+#install web3.py and bit
+conda create -n ethereum python=3.7 anaconda
+conda activate ethereum
+pip install web3
+pip install bit
